@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  width: 100 img; }
+
+.index__header {
+  background-color: #389db5;
+  width: 100%;
+  border-bottom: 2px solid; }
+
+.nav li a {
+  background-color: #2b7e93;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  font-size: 1.7em; }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  min-height: 9vh; }
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+
+.nav li a:hover {
+  background-color: #1f5866; }
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px; }
+
+.nav li:hover > ul {
+  display: block; }
+
+img {
+  width: 60px; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: white; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-bottom: 2px solid black;
+  width: 100%; }
+
+.section-intro {
+  background-image: url("https://i.pinimg.com/736x/3f/00/3c/3f003c51bb323fe38032dcf3cf587565.jpg");
+  width: 100%;
+  height: 40rem; }
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 4rem;
+  height: 50vh; }
+
+.section-1__h1 {
+  font-size: 4em;
+  color: #389db5; }
+
+.section-1__h2 {
+  font-size: 2.5em;
+  color: #389db5; }
+
+.section-1__div__ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  font-size: 1.7em;
+  padding-top: 5rem;
+  padding-bottom: 3rem; }
+
+.section-1__div-2 {
+  font-size: 1.7em;
+  display: flex;
+  justify-content: center; }
+
+.p-section1 {
+  width: 50%;
+  color: #389db5; }
+
+.link {
+  color: #389db5;
+  text-decoration: underline; }
+
+.transferencias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: em;
+  color: #389db5; }
+
+.transferencias__h2 {
+  font-size: 4em;
+  color: #389db5; }
+
+.transferencias__p {
+  color: #389db5;
+  font-size: 1.7em; }
+
+.form__transferencias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  padding-top: 2rem; }

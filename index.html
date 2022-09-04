@@ -6,18 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
     <header class="index__header">
         <nav class="nav">
-            <img src="" alt="">
+            <img src="./assets/img/logo2-removebg-preview(2).png" alt="">
             <ul class="ul">
-                <li class="ul__li"><a>Home</a></li>
-                <li class="ul__li"><a>Transferencias</a></li>
-                <li class="ul__li"><a>Comprar dolares</a></li>
-                <li class="ul__li"><a>Plazo fijo</a></li>
-                <li class="ul__li"><a>Prestamos</a></li>
+                <li class="ul__li"><a>Home</a>
+                    <ul>
+                        <li class="ul__ul__li"><a>Transferencias</a></li>
+                        <li class="ul__ul__li"><a>Comprar dolares</a></li>
+                        <li class="ul__ul__li"><a>Plazo fijo</a></li>
+                        <li class="ul__ul__li"><a>Prestamos</a></li>
+                    </ul>
+                </li>
                 <li class="ul__li"><a href="./pages/mis-tarjetas.html">Mis tarjetas</a></li>
                 <li class="ul__li"><a href="./pages/quienes-somos.html">Quienes somos</a></li>
                 <li class="ul__li"><a href="./pages/contacto.html">Contacto</a></li>
@@ -25,34 +29,35 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>BANCO BAIRES</h1>
-            <h2>Bienvenido (Nombre del usuario)!!!</h2>
+        <section class="section-intro">
+                <img src="./assets/img/plata.jpg" alt="">
+        </section>
+        <section class="section-1">
             <div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Transferencias</a></li>
-                    <li><a href="">Comprar dolares</a></li>
-                    <li><a href="">Plazo fijo</a></li>
-                    <li><a href="">Prestamos</a></li>
-                    <li><a href="">Mis tarjetas</a></li>
-                    <li><a href="">Quienes somos</a></li>
-                    <li><a href="">Contacto</a></li>
+                <h1 class="section-1__h1">BANCO BAIRES</h1>
+                <h2 class="section-1__h2">Bienvenido (Nombre del usuario)!!!</h2>
+            </div>
+            <div class="section-1__div">
+                <ul class="section-1__div__ul">
+                    <li><a href="" class="link">Home</a></li>
+                    <li><a href="" class="link">Transferencias</a></li>
+                    <li><a href="" class="link">Comprar dolares</a></li>
+                    <li><a href="" class="link">Plazo fijo</a></li>
+                    <li><a href="" class="link">Prestamos</a></li>
                 </ul>
             </div>
-            <div>
-                <img src="" alt="">
-                <p>Este sitio ofece servicios bancarios accediendo desde internet por medio de tu computadora, tablet o
+            <div class="section-1__div-2">
+                <p class="p-section1">Este sitio ofece servicios bancarios accediendo desde internet por medio de tu computadora, tablet o
                     telefono celular. Gracias por utilizar nuestro servicio de BANCO BAIRES. Te brindaremos el mejor
                     servicio y apoyo!</p>
             </div>
         </section>
         <hr>
-        <section>
-            <h2>Transferencias</h2>
-            <p>Aqui dentro podras operar transferencais hacia otros usuarios que poseas una cuenta en BANCO BAIRES y
+        <section class="transferencias">
+            <h2 class="transferencias__h2">Transferencias</h2>
+            <p class="transferencias__p">Aqui dentro podras operar transferencais hacia otros usuarios que poseas una cuenta en BANCO BAIRES y
                 podras enviar dinero.</p>
-            <form action="">
+            <form action="" class="form__transferencias">
                 <p>Nombre del destinatario</p>
                 <input type="text" placeholder="Ingrese el ALIAS del destinatario" required>
                 <p>Ingrese el CVU</p>
@@ -118,22 +123,24 @@
                 que te permite obtener dinero en efectivo para satisfacer cualquier necesidad económica como pagar una
                 deuda, financiar los estudios de tus hijos, realizar el pago de servicios, hacer un viaje en tus
                 vacaciones y más.</p>
-                <p>Si deseas sacar un prestamo en BANCO BAIRES usted debera pagar un total de 86,6% de tasa anual mas el valor que usted pidio.</p>
-                <form action="">
-                    <p>Dinero que usted desea pedir</p>
+            <p>Si deseas sacar un prestamo en BANCO BAIRES usted debera pagar un total de 86,6% de tasa anual mas el
+                valor que usted pidio.</p>
+            <form action="">
+                <p>Dinero que usted desea pedir</p>
+                <input type="number">
+                <div>
+                    <p>Meses que planea tener para devolver el dinero</p>
                     <input type="number">
-                    <div>
-                        <p>Meses que planea tener para devolver el dinero</p>
-                        <input type="number">
-                        <p>Dinero que se agregaria por intereses</p>
-                        <input type="number">
-                    </div>
-                    <p>Dinero que debera pagar al final del prestamo total</p>
-                    <input type="number"><hr>
-                    <p>Ingrese su contraseña para corroborar que sea usted</p>
-                    <input type="password">
-                    <input type="submit">
-                </form>
+                    <p>Dinero que se agregaria por intereses</p>
+                    <input type="number">
+                </div>
+                <p>Dinero que debera pagar al final del prestamo total</p>
+                <input type="number">
+                <hr>
+                <p>Ingrese su contraseña para corroborar que sea usted</p>
+                <input type="password">
+                <input type="submit">
+            </form>
         </section>
     </main>
     <script src="./assets/js/index.js"></script>
